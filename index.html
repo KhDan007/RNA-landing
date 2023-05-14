@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Wikipedia</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <header class="header">
+            <div class="header__burger">
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="header__popup1 popup">
+                <div class="popup__top">
+                    Main menu
+                </div>
+                <ul class="popup__body1">
+                    <li><a href="">Main page</a></li>
+                    <li><a href="">Contents</a></li>
+                    <li><a href="">Current events</a></li>
+                    <li><a href="">Random article</a></li>
+                    <li><a href="">About Wikipedia</a></li>
+                    <li><a href="">Donate</a></li>
+                </ul>
+                <div class="popup__text1">
+                    Contribute
+                </div>
+                <ul class="popup__body2">
+                    <li><a href="">Help</a></li>
+                    <li><a href="">Learn to edit</a></li>
+                    <li><a href="">Community portal</a></li>
+                    <li><a href="">Recent changes</a></li>
+                    <li><a href="">Upload file</a></li>
+                </ul>
+                <div class="popup__languages">
+                    <div class="popup__text2">
+                        Languages
+                    </div>
+                    <div class="popup__lang-block">
+                        Language links are at the top of the page across from the title.
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__column">
+                <a href="" class="header-logo">
+                    <img class="wikiicon" src="img/wikipedia.png">
+                    <div class="wikilogo">
+                        <div class="wikilogo__title">Wikipedia</div>
+                        <div class="wikilogo__subtitle">The Free Encyclopedia</div>
+                    </div>
+                </a>
+            </div>
+            <div class="header__column">
+                <form class="navbar-form navbar-left" action="/action_page.php">
+                    <div class="input-group">
+                        <input type="text" class="search-pole" placeholder="Search wikipedia" name="search">
+                        <button class="btn btn-default" type="submit">
+                            Search
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="header__column">
+                <ul class="navbar-right">
+                    <li><a href="#">Create account</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class='page'>
+            <aside class="sidebar">
+                <div class="sidebar__block">
+                    <div class="sidebar__top">
+                        Contents
+                    </div>
+                    <ul class="sidebar__elements">
+                        <li><a href="#top">(Top)</a></li>
+                        <li><a href="#comparison">Comparison with DNA</a></li>
+                        <li><a href="#structure">Structure</a></li>
+                        <li><a href="#syntesis">Syntesis</a></li>
+                        <div class="spoiler">
+                            <div class="spoiler-header">
+                                <a href="#types">Types</a>
+                                <span class="spoiler-arrow"></span>
+                            </div>
+                            <div class="spoiler-content">
+                                <li><a href="#overview">Overview</a></li>
+                                <li><a href="#in-length">In length</a></li>
+                                <li><a href="#in-translation">In translation</a></li>
+                            </div>
+                        </div>
+
+
+                        <div class="spoiler">
+                            <div class="spoiler-header">
+                                <li><a href="#regulatory-rna">Regulatory RNA</a></li>
+                                <span class="spoiler-arrow"></span>
+                            </div>
+                            <div class="spoiler-content">
+                                <li><a href="#interference">RNA interference by miRNAs</a></li>
+                                <li><a href="#long">Long non-coding RNAs</a></li>
+                                <li><a href="#enhancer">Enhancer RNAs</a></li>
+                                <li><a href="#regulatory">Regulatory RNA in prokaryotes</a></li>
+                            </div>
+                        </div>
+
+
+                        <li><a href="#processing">In RNA processing</a></li>
+
+                        <div class="spoiler">
+                            <div class="spoiler-header">
+                                <li><a href="#genomes">RNA genomes</a></li>
+                                <span class="spoiler-arrow"></span>
+                            </div>
+                            <div class="spoiler-content">
+                                <li><a href="#in-reverse">In reverse transcription</a></li>
+                            </div>
+                        </div>
+
+
+
+                        <li><a href="#double">Double-stranded RNA</a></li>
+                        <li><a href="#circular">Circular RNA</a></li>
+
+                        <div class="spoiler">
+                            <div class="spoiler-header">
+                                <li><a href="#key">Key discoveries in RNA biology</a></li>
+                                <span class="spoiler-arrow"></span>
+                            </div>
+                            <div class="spoiler-content">
+                                <li><a href="#relevance">Relevance for prebiotic chemistry and abiogenesis</a></li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </aside>
+            <main class="main">
+                <section class="wiki">
+                    <h1 class="wiki__title" id="top">RNA</h1>
+
+                    <div class="wiki__menu">
+                        <div class="wiki__list">
+                            <div class="wiki__column">
+                                <a href="">Article</a>
+                                <a href="">Talk</a>
+                            </div>
+                            <div class="wiki__column">
+                                <a href="">Read</a>
+                                <a href="">Edit</a>
+                                <a href="">View history</a>
+                                <a href="">Tools</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="wiki__details">From Wikipedia ,the free encyclopedia</p>
+                    <p class="wiki__subdetails"><i>This article is about the biological macromolecule. For other uses,
+                            see <a href="https://en.wikipedia.org/wiki/RNA_(disambiguation)">RNA disambiguation</a>
+                        </i></p>
+                </section>
+                <section class="definition">
+                    <div class='container'>
+                        <p>
+                            <strong>Ribonucleic acid (RNA)</strong> is a <a
+                                href="https://en.m.wikipedia.org/wiki/Polymer" target=_blank>polymeric</a> molecule
+                            essential in various biological roles in <a
+                                href="https://en.m.wikipedia.org/wiki/Genetic_code" target=_blank>coding</a> > ,
+                            <a href="https://en.m.wikipedia.org/wiki/Translation_(biology)" target=_blank>decoding</a> ,
+                            <a href="https://en.m.wikipedia.org/wiki/Regulatory_RNA" target=_blank>regulating</a>
+                            and <a href="https://en.m.wikipedia.org/wiki/Gene_expression" target=_blank>expression</a>
+                            of <a href="https://en.m.wikipedia.org/wiki/Gene " target=_blank>genes</a>. RNA and
+                            deoxyribonucleic acid (<a href="https://en.m.wikipedia.org/wiki/DNA" target=_blank>DNA</a>)
+                            are
+                            <a href="https://en.m.wikipedia.org/wiki/Nucleic_acid" target=_blank>nucleic acids.</a>.
+                            Along with <a href="https://en.m.wikipedia.org/wiki/Lipid" target=_blank>lipids</a> <a
+                                href="https://en.m.wikipedia.org/wiki/Protein" target=_blank>proteins,</a> and <a
+                                href="https://en.m.wikipedia.org/wiki/Carbohydrate" target=_blank>carbohydrates,</a>
+                            nucleic
+                            acids constitute one of the four major
+                            <a href="https://en.m.wikipedia.org/wiki/Macromolecule" target=_blank>macromolecules</a>
+                            essential for all known forms of <a href="https://en.m.wikipedia.org/wiki/Life"
+                                target=_blank>life</a> Like DNA, RNA is assembled as a chain of <a href=""
+                                target=_blank>nucleotides</a> , but unlike DNA, RNA is found in nature as a single
+                            strand folded onto
+                            itself,
+                            rather than a paired double strand. Cellular organisms use ,<a
+                                href="https://en.m.wikipedia.org/wiki/Messenger_RNA" target=_blank>messenger
+                                RNA,</a>
+                            (mRNA)
+                            to convey genetic information (using the <a
+                                href="https://en.m.wikipedia.org/wiki/Nucleobase" target=_blank>nitrogenous bases
+                                of</a>
+                            <a href=https://en.m.wikipedia.org/wiki/Guanine target=_blank>guanine,</a> <a
+                                href="https://en.m.wikipedia.org/wiki/Uracil" target=_blank>uracil,</a> <a
+                                href="https://en.m.wikipedia.org/wiki/Adenine" target=_blank>adenine</a> and <a
+                                href="https://en.m.wikipedia.org/wiki/Cytosine" target=_blank>cytosine,</a> denoted
+                            by
+                            the letters G,U,A, and C) that directs synthesis of
+                            specific proteins.
+                            Many <a href="https://en.m.wikipedia.org/wiki/Virus" target=_blank>viruses</a> encode
+                            their
+                            genetic information using an RNA <a href="https://en.m.wikipedia.org/wiki/Genome"
+                                target=_blank>genome</a> <br><br>
+                            Some RNA molecules play an active role within cells by catalyzing biological reactions,
+                            controlling <a href="https://en.m.wikipedia.org/wiki/Gene_expression" target=_blank>gene
+                                expression,</a> or sensing and communicating responses to cellular signals. One of
+                            these
+                            active processes is <a href="https://en.m.wikipedia.org/wiki/Protein_biosynthesis"
+                                target=_blank>protein synthesis,</a> a universal function in which RNA molecules
+                            direct
+                            the
+                            synthesis of proteins on <a href="https://en.m.wikipedia.org/wiki/Ribosome"
+                                target=_blank>ribosomes.</a> This process uses <a
+                                href="https://en.m.wikipedia.org/wiki/Transfer_RNA" target=_blank>transfer RNA</a>
+                            (tRNA)
+                            molecules to deliver <a href="https://en.m.wikipedia.org/wiki/Amino_acid"
+                                target=_blank>amino
+                                acids</a> to the <a href="https://en.m.wikipedia.org/wiki/Ribosome"
+                                target=_blank>ribosome</a>
+                            where <a href="https://en.m.wikipedia.org/wiki/Ribosomal_RNA" target=_blank>ribosomal
+                                RNA</a>
+                            (rRNA) then links amino acids together to form coded
+                            proteins.
+                        </p>
+                    </div>
+
+                    <article class="definition__image block">
+                        <figure>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Pre-mRNA-1ysv-tubes.png/330px-Pre-mRNA-1ysv-tubes.png"
+                                , width="150px">
+                            <figcaption>A hairpin loop from a pre-mRNA. Highlighted are the nucleobases (green)
+                                and
+                                the
+                                ribose-phosphate backbone (blue). This is a single strand of RNA that folds back
+                                upon
+                                itself.</figcaption>
+                        </figure>
+                    </article>
+
+                    <div class="definition__image2 box1 block">
+                        <div class="box1__top">
+                            Part of a series on
+                        </div>
+                        <div class="box1__title"><a href="https://en.wikipedia.org/wiki/Genetics">Genetics</a></div>
+                        <figure>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Hybridogenesis_in_water_frogs_gametes.svg/225px-Hybridogenesis_in_water_frogs_gametes.svg.png"
+                                width="150" height="100">
+                        </figure>
+                        <div class="box1__body">
+                            <div class="box1__elem">
+                                <h3 class="box1__subtitle">
+                                    Key components
+                                </h3>
+                                <div class="box1__text">
+                                    <li><a href="/wiki/Chromosome">Chromosome</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/DNA">DNA</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/RNA">RNA</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Genome">Genome</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Heredity">Heredity</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Mutation">Mutation</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Nucleotide">Nucleotide</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Genetic_variation">Variation</a>
+                                    </li>
+                                    <hr>
+                                    <li><a href="https://en.wikipedia.org/wiki/Outline_of_genetics">Outline</a>
+                                    </li>
+                                    <li> <a href="https://en.wikipedia.org/wiki/Index_of_genetics_articles">Index</a>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="box1__elem">
+                                <h3 class="box1__subtitle">
+                                    History and topics
+                                </h3>
+                                <div class="box1__text">
+                                    <li><a
+                                            href="https://en.wikipedia.org/wiki/Introduction_to_genetics">Introduction</a>
+                                    </li>
+                                    <li><a href="https://en.wikipedia.org/wiki/History_of_genetics">History</a>
+                                    </li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Evolution">Evolution</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Molecular_evolution">(molecular)</a>
+                                    </li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Population_genetics>Heredity">Population
+                                            genetics</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Mendelian_inheritance">Mendelian
+                                            inheritance</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Quantitative_genetics">Quantitive
+                                            genetics</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Genetic_variation">Variation</a>
+                                    </li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Molecular_genetics">Molecular
+                                            genetics</a>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="box1__elem">
+                                <h3 class="box1__subtitle">
+                                    Research
+                                </h3>
+                                <div class="box1__text">
+                                    <li><a href="https://en.wikipedia.org/wiki/Geneticist">Geneticist</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/DNA_sequencing">DNA
+                                            sequencing</a>
+                                    </li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Genetic_engineering">Genetic
+                                            engineering</a>
+                                    </li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Genomics">Genomics</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Template:Genomics">(template)</a>
+                                    </li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Medical_genetics">Medical
+                                            genetics</a></li>
+                                    <hr>
+                                    <li><a
+                                            href="https://en.wikipedia.org/wiki/Outline_of_genetics#Branches_of_genetics">Branches
+                                            of genetics</a></li>
+                                </div>
+                            </div>
+                            <div class="box1__elem">
+                                <h3 class="box1__subtitle">
+                                    Personalized medicine
+                                </h3>
+                                <div class="box1__text">
+                                    <li><a href="https://en.wikipedia.org/wiki/Personalized_medicine">Personalized
+                                            medicine</a></li>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box1__category">
+                            <a href="https://en.wikipedia.org/wiki/Category:Genetics">Category</a>
+                        </div>
+
+                        <div class="box1__tools">
+                            <a href="">V</a> <a href="">T</a> <a href="">E</a>
+                        </div>
+
+                    </div>
+
+                    <!-- <p>A hairpin loop from a pre-mRNA. Highlighted are the <a
+                            href="https://en.wikipedia.org/wiki/Nucleobase" target=_blank>nucleobase</a>""
+                        (green) and
+                        the ribose-phosphate backbone (blue). This is a single strand of RNA that folds back
+                        upon
+                        itself.</p> -->
+
+                    <section class="section-1">
+                        <div class='container'>
+                            <h2 id="comparison">Comparison with DNA</h2>
+
+                            <p>The chemical structure of RNA is very similar to that of <a
+                                    href="https://en.m.wikipedia.org/wiki/DNA" target=_blank>DNA</a> but differs
+                                in
+                                three
+                                primary ways:
+                            <ul class="section-1__list">
+                                <li>
+                                    • Unlike double-stranded DNA, RNA is usually a single-stranded molecule
+                                    (ssRNA)[1]
+                                    in many
+                                    of its biological roles and consists of much shorter chains of nucleotides.[2]
+                                    However,
+                                    double-stranded RNA (dsRNA) can form and (moreover) a single RNA molecule can,
+                                    by
+                                    complementary base pairing, form intrastrand double helixes, as in tRNA.
+                                </li>
+                                <li>
+                                    • While the sugar-phosphate "backbone" of DNA contains <a
+                                        href="https://t.me/c/1333133902/798" target=_blank>deoxyribose,</a> RNA
+                                    contains
+                                    <a href="https://t.me/c/1333133902/798" target=_blank>ribose</a> instead.[3]
+                                    Ribose
+                                    has a
+                                    <a href="https://en.m.wikipedia.org/wiki/Hydroxy_group" target=_blank>hydroxyl</a>
+                                    group
+                                    attached to the pentose ring in the <a
+                                        href="https://en.m.wikipedia.org/wiki/Nucleic_acid_nomenclature"
+                                        target=_blank>2'</a>
+                                    position, whereas deoxyribose does not. The hydroxyl groups in the ribose
+                                    backbone
+                                    make RNA
+                                    more chemically <a href="https://en.m.wikipedia.org/wiki/Lability"
+                                        target=_blank>labile</a>
+                                    than DNA by lowering the <a href="https://en.m.wikipedia.org/wiki/Activation_energy"
+                                        target=_blank>activation energy</a> of <a
+                                        href="https://en.m.wikipedia.org/wiki/Hydrolysis" target=_blank>hydrolysis.</a>
+                                </li>
+                                <li>
+                                    • The complementary base to <a href="https://en.m.wikipedia.org/wiki/Adenine"
+                                        target=_blank>adenine</a> in DNA is <a
+                                        href="https://en.m.wikipedia.org/wiki/Thymine" target=_blank>thymine</a>
+                                    whereas
+                                    in RNA, it is <a href="https://en.m.wikipedia.org/wiki/Uracil"
+                                        target=_blank>uracil</a>
+                                    which is
+                                    an <a href="https://en.m.wikipedia.org/wiki/Methylation"
+                                        target=_blank>unmethyalated</a>
+                                    form
+                                    of thymine.[4]
+                                </li>
+                            </ul>
+
+
+                            Like DNA, most biologically active RNAs, including <a href="https://t.me/c/1333133902/798 ,"
+                                target=_blank>mRNA</a> <a href="https://en.m.wikipedia.org/wiki/TRNA"
+                                target=_blank>tRNA</a>
+                            <a href="https://en.m.wikipedia.org/wiki/RRNA" target=_blank>rRNA</a> <a
+                                href="https://en.m.wikipedia.org/wiki/SnRNA ," target=_blank>snRNAs</a> and
+                            other <a href="https://en.m.wikipedia.org/wiki/Non-coding_RNA ," target=_blank>non-coding
+                                RNAs,</a> contain self-complementary sequences that allow parts of the RNA
+                            to
+                            fold[5]
+                            and pair with itself to form double helices. Analysis of these RNAs has revealed
+                            that they
+                            are highly structured. Unlike DNA, their structures do not consist of long
+                            double
+                            helices,
+                            but rather collections of short helices packed together into structures akin to
+                            proteins.
+                            In this fashion, RNAs can achieve chemical <a
+                                href="https://en.m.wikipedia.org/wiki/Catalysis" target=_blank>catalysis</a>
+                            (like
+                            enzymes).[6] For instance, determination of the structure of the ribosome—an
+                            RNA-protein
+                            complex that catalyzes peptide bond formation—revealed that its active site is
+                            composed
+                            entirely of RNA.
+                            </p>
+                        </div>
+                    </section>
+
+
+                    <section class="structure">
+
+                        <div class='container'>
+                            <h2 id="structure"> Structure</h2>
+                            <p>Each <a href="https://en.m.wikipedia.org/wiki/Nucleotide" target=_blank>nucleotide</a> in
+                                RNA
+                                contains a <a href="https://en.m.wikipedia.org/wiki/Ribose" target=_blank>ribose</a>
+                                sugar, with
+                                carbons numbered 1' through 5'. A base is attached to the 1' position, in general,
+                                <a href="https://en.m.wikipedia.org/wiki/Adenine" target=_blank>adenine</a> (A), <a
+                                    href="https://en.m.wikipedia.org/wiki/Cytosine" target=_blank>cytosine</a> (C),
+                                <a href="https://en.m.wikipedia.org/wiki/Guanine" target=_blank>guanine</a> (G), or
+                                <a href="https://en.m.wikipedia.org/wiki/Uracil" target=_blank>uracil</a> (U).
+                                Adenine
+                                and
+                                guanine are <a href="https://en.m.wikipedia.org/wiki/Purine ," target=_blank>purines</a>
+                                cytosine and uracil are <a href="https://en.m.wikipedia.org/wiki/Pyrimidine ."
+                                    target=_blank>pyrimidines.</a> A <a href="https://en.m.wikipedia.org/wiki/Phosphate"
+                                    target=_blank>phosphate</a>
+                                group is attached to the 3' position of one ribose and
+                                the 5'
+                                position of the next. The phosphate groups have a negative charge each, making RNA a
+                                charged
+                                molecule (polyanion). The bases form <a
+                                    href="https://en.m.wikipedia.org/wiki/Hydrogen_bond" target=_blank>hydrogen
+                                    bonds</a> between cytosine and guanine, between adenine and uracil
+                                and between guanine and uracil.[8] However, other interactions are possible, such as
+                                a
+                                group of
+                                adenine bases binding to each other in a bulge,[9] or the GNRA <a
+                                    href="https://en.m.wikipedia.org/wiki/Tetraloop" target=_blank>tetraloop</a>
+                                that
+                                has a
+                                guanine–adenine base-pair.[8] <br><br>
+                            </p>
+                        </div>
+
+                        <div class="structure__block block">
+                            <figure>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/50S-subunit_of_the_ribosome_3CC2.png/1024px-50S-subunit_of_the_ribosome_3CC2.png"
+                                    width="150">
+                                <figcaption>Three-dimensional representation of the 50S ribosomal subunit.
+                                    Ribosomal
+                                    RNA is
+                                    in ochre, proteins in blue. The active site is a small segment of rRNA,
+                                    indicated in
+                                    red.</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="container-2">
+                            <p>
+                                An important structural component of RNA that distinguishes it from DNA is the presence
+                                of a
+                                <a href="https://en.m.wikipedia.org/wiki/Hydroxyl" target=_blank>hydroxyl</a> group at
+                                the
+                                2'
+                                position of the <a href="https://en.m.wikipedia.org/wiki/Ribose" target=_blank>ribose
+                                    sugar.</a> The
+                                presence of this functional group causes the helix to mostly take the <a
+                                    href="https://en.m.wikipedia.org/wiki/A-DNA" target=_blank>A-form geometry,[10]</a>
+                                although in
+                                single strand dinucleotide contexts, RNA can rarely also adopt the B-form most commonly
+                                observed in
+                                DNA.[11] The A-form geometry results in a very deep and narrow major groove and a
+                                shallow
+                                and wide
+                                minor groove.[12] A second consequence of the presence of the 2'-hydroxyl group is that
+                                in
+                                conformationally flexible regions of an RNA molecule (that is, not involved in formation
+                                of
+                                a double
+                                helix), it can chemically attack the adjacent phosphodiester bond to cleave the
+                                backbone.
+                                RNA is transcribed with only four bases (adenine, cytosine, guanine and uracil),[14] but
+                                these bases
+                                and attached sugars can be modified in numerous ways as the RNAs mature. <a
+                                    href="https://en.m.wikipedia.org/wiki/Pseudouridine" target=_blank>Pseudouridine</a>
+                                (Ψ), in
+                                which the linkage between uracil and ribose is changed from a C–N bond to a C–C bond,
+                                and <a href="https://en.m.wikipedia.org/wiki/5-methyluridine"
+                                    target=_blank>ribothimidine</a>
+                                (T) are
+                                found in various places (the most notable ones being in the TΨC loop of <a
+                                    href="https://en.m.wikipedia.org/wiki/TRNA" target=_blank>tRNA).[15]</a> Another
+                                notable
+                                modified base is <a href="https://en.m.wikipedia.org/wiki/Hypoxanthine"
+                                    target=_blank>hypoxanthine,</a>
+                                a deaminated adenine base whose <a href="https://en.m.wikipedia.org/wiki/Nucleoside"
+                                    target=_blank>nucleoside</a> is
+                                called
+                                <a href="https://en.m.wikipedia.org/wiki/Inosine" target=_blank>inosine</a> (I). Inosine
+                                plays a
+                                key role in the <a href="https://en.m.wikipedia.org/wiki/Wobble_hypothesis"
+                                    target=_blank>wobble
+                                    hy
+                                    pothesis</a>of the <a href="https://en.m.wikipedia.org/wiki/Genetic_code"
+                                    target=_blank>genetic
+                                    code[]</a>
+                            </p>
+                        </div>
+
+                        <div class="container-3">
+                            There are more than 100 other naturally occurring modified nucleosides.[17] The greatest
+                            structural
+                            diversity of modifications can be found in <a href="https://en.m.wikipedia.org/wiki/TRNA"
+                                target=_blank>tRNA [18]</a> while
+                            pseudouridine and nucleosides with <a
+                                href="https://en.m.wikipedia.org/wiki/2%27-O-methylation" target=_blank>
+                                2'-O-methylribose </a>
+                            often present in rRNA are the most common.[19] The specific roles of many of these
+                            modifications in
+                            RNA are not fully understood. However, it is notable that, in ribosomal RNA, many of the
+                            post-transcriptional modifications occur in highly functional regions, such as the
+                            peptidyl
+                            transferase center [20] and the subunit interface, implying that they are important for
+                            normal
+                            function.[21]
+                            <br><br>
+
+                            The functional form of single-stranded RNA molecules, just like proteins, frequently
+                            requires a
+                            specific <a href="https://en.m.wikipedia.org/wiki/RNA_Tertiary_Structure"
+                                target=_blank>tertiary
+                                structure</a> The scaffold for this structure is provided by <a
+                                href="https://en.wikipedia.org/wiki/Secondary_structure" target=_blank>secondary
+                                structure</a>
+                            elements that are hydrogen bonds within the molecule. This leads to several recognizable
+                            "domains"
+                            of secondary structure like <a href="https://en.wikipedia.org/wiki/Hairpin_loop"
+                                target=_blank>hairpin
+
+
+                                loops</a> bulges, and <a href="https://en.wikipedia.org/wiki/Internal_loop"
+                                target=_blank>
+                                internal</a>
+                        </div>
+
+                        <div class="container-4">
+                            <p>
+                                loops
+                                In
+                                order
+                                create, i.e., design, a RNA for any given secondary structure, two or three bases
+                                would
+                                not
+                                be
+                                enough, but four bases are enough.[23] This is likely why nature has "chosen" a four
+                                base
+                                alphabet:
+                                less than four does not allow to create all structures,
+                                while more than four bases are
+                                not
+                                necessary. Since RNA is charged, metal ions such as<a
+                                    href="https://en.wikipedia.org/wiki/Magnesium" target=_blank>Mg2+</a> are needed to
+                                stabilise many secondary and <a
+                                    href="https://en.wikipedia.org/wiki/RNA_Tertiary_Structure" target=_blank>tertiary
+                                    structures</a><br><br>
+                                The naturally occurring <a href="https://en.wikipedia.org/wiki/Enantiomer"
+                                    target=_blank>enantiomer</a>
+                                of RNA is D-RNA composed of D-ribonucleotides. All
+                                chirality
+                                centers are located in the D-ribose. By the use of L-ribose or rather L-ribonucleotides,
+                                L-RNA can
+                                be synthesized. L-RNA is much more stable against degredation by <a
+                                    href="https://en.wikipedia.org/wiki/Ribonuclease" target=_blank>RNase.[25]</a>
+                                <br><br>
+                                Like other structured <a href="https://en.wikipedia.org/wiki/Biopolymer"
+                                    target=_blank>biopolymers</a>
+                                such as proteins, one can define topology of a folded
+                                RNA
+                                molecule. This is often done based on arrangement of intra-chain contacts within a
+                                folded
+                                RNA,
+                                termed as <a href="https://en.wikipedia.org/wiki/Circuit_topology" target=_blank>circuit
+                                    topology</a>
+                            </p>
+                        </div>
+
+                        <div class="structure__block2 block">
+                            <figure>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/RNA_chemical_structure.GIF/330px-RNA_chemical_structure.GIF"
+                                    width="150">
+                                <figcaption>Structure of a fragment of an RNA, showing a guanosyl subunit.
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="structure__block3 block">
+                            <figure>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Piwi-siRNA-basepairing.png/375px-Piwi-siRNA-basepairing.png"
+                                    width="150">
+                                <figcaption>Watson-Crick base pairs in a <a href="/wiki/SiRNA" class="mw-redirect"
+                                        title="SiRNA">siRNA</a> (hydrogen atoms are not
+                                    shown)</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="structure__block4 block">
+                            <figure>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Ciliate_telomerase_RNA.JPG/420px-Ciliate_telomerase_RNA.JPG"
+                                    width="150">
+                                <figcaption> <a href="/wiki/Secondary_structure" class="mw-redirect"
+                                        title="Secondary structure">Secondary structure</a> of a <a
+                                        href="/wiki/Telomerase_RNA" class="mw-redirect"
+                                        title="Telomerase RNA">telomerase
+                                        RNA</a>.</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                    </section>
+
+
+                    <section class="syntesis">
+                        <h2 class="syntesis" id="syntesis">Synthesis</h2>
+                    </section>
+
+                    <p>Synthesis of RNA is usually catalyzed by an enzyme <a
+                            href="https://en.wikipedia.org/wiki/RNA_polymerase" target=_blank>RNA
+                            polymerase</a>
+                        —using
+                        DNA as a template, a process known as <a
+                            href="https://en.wikipedia.org/wiki/Transcription_(genetics)"
+                            target=_blank>transcription</a>
+                        Initiation of transcription begins with the
+                        binding
+                        of the
+                        enzyme to a <a href="https://en.wikipedia.org/wiki/Promoter_(biology)"
+                            target=_blank>promoter</a>
+                        sequence in the DNA (usually found "upstream" of a
+                        gene).
+                        The DNA
+                        double helix is unwound by the <a href="https://en.wikipedia.org/wiki/Helicase"
+                            target=_blank>helicase</a> activity of the enzyme. The enzyme then progresses
+                        along
+                        the
+                        template strand in the 3’ to 5’ direction, synthesizing a complementary RNA molecule
+                        with
+                        elongation occurring in the 5’ to 3’ direction. The DNA sequence also dictates where
+                        termination
+                        of RNA synthesis will occur.[26]
+                        <a href="https://en.wikipedia.org/wiki/Primary_transcript" target=_blank>Primary
+                            transcript</a>
+                        RNAs are often <a href="https://en.wikipedia.org/wiki/Post-transcriptional_modification"
+                            target=_blank>modified</a> enzymes after transcription. For example, <a
+                            href="https://en.wikipedia.org/wiki/Poly(A)_tail" target=_blank>Poly(A)_tail</a>
+                        and
+                        a <a href="https://en.wikipedia.org/wiki/5%27_cap" target=_blank>5' cap</a> added to
+                        eukaryotic
+                        <a href="https://en.wikipedia.org/wiki/Pre-mRNA" target=_blank>Pre-mRNA</a> and <a
+                            href="https://en.wikipedia.org/wiki/Intron" target=_blank>intron</a> are removed
+                        by
+                        the <a href="https://en.wikipedia.org/wiki/Spliceosome" target=_blank>splicesome</a>
+                        There are also a number of <a href="https://en.wikipedia.org/wiki/RNA-dependent_RNA_polymerase"
+                            target=_blank>RNA-dependent RNA polymerase</a> RNA-dependent RNA polymerases
+                        that
+                        use RNA as
+                        their template for synthesis of a new strand of RNA. For instance, a number of<a
+                            href="https://en.wikipedia.org/wiki/Orthornavirae" target=_blank> RNA
+                            viruses</a>
+                        (such as
+                        poliovirus) use this type of enzyme to replicate their genetic material.[27] Also,
+                        RNA-dependent
+                        RNA polymerase is part of the <a href="https://en.wikipedia.org/wiki/RNA_interference"
+                            target=_blank>RNA
+                            interference</a> pathway in many organisms.[28]
+                    </p>
+
+                    <section class="types">
+                        <h2 id="types" class="ToR">Types of RNA</h2>
+
+                        <div class="types__box block">
+                            <figure>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Full_length_hammerhead_ribozyme.png/255px-Full_length_hammerhead_ribozyme.png"
+                                    width="150">
+                                <figcaption>Structure of a <a href="/wiki/Hammerhead_ribozyme"
+                                        title="Hammerhead ribozyme">hammerhead ribozyme</a>, a ribozyme that
+                                    cuts
+                                    RNA
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="types__text">
+                            See also: <a href="https://en.wikipedia.org/wiki/List_of_RNAs">List of RNAs</a>
+                        </div>
+
+
+                        <div class='types__container'>
+                            <section class="overview">
+                                <h3 id="overview" class="overview">Overview</h3>
+                                <p>
+                                    Messenger RNA (mRNA) is the RNA that carries information from DNA to the <a
+                                        href="https://en.wikipedia.org/wiki/Ribosome" target=_blank>ribosome</a> the
+                                    sites
+                                    of
+                                    protein synthesis (translation) in the cell. The mRNA is a copy of DNA. The coding
+                                    sequence of
+                                    the mRNA determines the <a href="https://en.wikipedia.org/wiki/Amino_acid"
+                                        target=_blank>amino
+                                        acid</a> sequence in the <a href="https://en.wikipedia.org/wiki/Protein"
+                                        target=_blank>protein</a> is produced.[29] However, many RNAs do not code for
+                                    protein (about
+                                    97% of the transcriptional output is non-protein-coding in
+                                    eukaryotes[30][31][32][33]).
+                                    These so-called <a href="https://en.wikipedia.org/wiki/Non-coding_RNA"
+                                        target=_blank>Non-coding
+                                        RNAs</a> ("ncRNA") can be encoded by their own genes (RNA genes), but can also
+                                    derive from
+                                    mRNA <a href="https://en.wikipedia.org/wiki/Intron" target=_blank>introns</a> The
+                                    most
+                                    prominent
+                                    examples of non-coding RNAs are <a href="https://en.wikipedia.org/wiki/Transfer_RNA"
+                                        target=_blank>transfer RNA</a> (tRNA) and <a
+                                        href="https://en.wikipedia.org/wiki/Ribosomal_RNA" target=_blank>ribosomal
+                                        RNA</a>
+                                    (rRNA),
+                                    both of which are involved in the process of translation.[4] There are also
+                                    non-coding
+                                    RNAs
+                                    involved in gene regulation, RNA processing<a
+                                        href="https://en.wikipedia.org/wiki/RNA_processing" target=_blank>RNA
+                                        processing</a>
+                                    and
+                                    other roles. Certain RNAs are able to <a
+                                        href="https://en.wikipedia.org/wiki/Catalysis" target=_blank>catalyse</a>
+                                    chemical reactions such as cutting and <a
+                                        href="https://en.wikipedia.org/wiki/Ligase" target=_blank>ligating</a> other RNA
+                                    molecules,[35] and the catalysis of <a
+                                        href="https://en.wikipedia.org/wiki/Peptide_bond" target=_blank>peptide bond</a>
+                                    formation in the <a href="https://en.wikipedia.org/wiki/Ribosome"
+                                        target=_blank>ribosome</a>>
+                                    these
+                                    are
+                                    known as
+                                    <a href="/wiki/Ribozyme" title="Ribozyme">ribozymes</a>.
+                                </p>
+                            </section>
+
+                            <section class="in-length">
+                                <h3 id="in-length" class="in-length">In length</h3>
+                                <p>
+                                    According to the length of RNA chain, RNA includes <a href="/wiki/Small_RNA"
+                                        title="Small RNA">small
+                                        RNA</a> and long RNA.[36] Usually, <a href="/wiki/Small_RNA"
+                                        title="Small RNA">small
+                                        RNAs</a>
+                                    are shorter than 200 nt
+                                    in length, and long RNAs
+                                    are
+                                    greater than 200 nt long.[37] Long RNAs, also called large RNAs, mainly include <a
+                                        href="/wiki/Long_non-coding_RNA" title="Long non-coding RNA">long non-coding
+                                        RNA</a>
+                                    (lncRNA) and <a href="/wiki/MRNA" class="mw-redirect" title="MRNA">mRNA</a>. Small
+                                    RNAs
+                                    mainly
+                                    include 5.8S <a href="/wiki/5S_rRNA" class="mw-redirect" title="5S rRNA">5S rRNA</a>
+                                    (rRNA), 5S
+                                    rRNA, <a href="/wiki/Transfer_RNA" title="Transfer RNA">transfer RNA</a> (tRNA), <a
+                                        href="/wiki/MicroRNA" title="MicroRNA">microRNA</a> (miRNA), <a
+                                        href="/wiki/Small_interfering_RNA" title="Small interfering RNA">small
+                                        interfering
+                                        RNA</a>
+                                    (siRNA), <a href="/wiki/Small_nucleolar_RNA" title="Small nucleolar RNA">small
+                                        nucleolar
+                                        RNA</a>
+                                    (snoRNAs), <a href="/wiki/Piwi-interacting_RNA"
+                                        title="Piwi-interacting RNA">Piwi-interacting
+                                        RNA</a> (piRNA), tRNA-derived small RNA (tsRNA)[38] and small rDNA-derived RNA
+                                    (srRNA).[39]
+                                    There are certain exceptions as in the case of the <a href="/wiki/5S_rRNA"
+                                        class="mw-redirect" title="5S rRNA">5S rRNA</a> of the members of the genus <a
+                                        href="/wiki/Halococcus" title="Halococcus">Halococcus</a> (Archaea), which have
+                                    an
+                                    insertion, thus increasing its
+                                    size.[40][41][42]
+                                </p>
+                            </section>
+                        </div>
+
+                        <section class="in-translation">
+                            <h3 id="in-translation" class="in-translation">In translation</h3>
+                            <p>
+                                <a href="/wiki/Messenger_RNA" title="">Messenger RNA</a> (mRNA) carries information
+                                about
+                                a
+                                protein sequence to the <<a href="/wiki/Ribosome" title="Ribosome">ribosomes
+                                    </a>, the protein synthesis factories in the cell. It is <a
+                                        href="/wiki/Genetic_code" title="Genetic code">coded</a> so
+                                    that every three nucleotides (a <a href="/wiki/Codon" class="mw-redirect"
+                                        title="">codon</a>)
+                                    corresponds to one amino
+                                    acid. In <a href="/wiki/Eukaryotic" class="mw-redirect"
+                                        title="Eukaryotic">eukaryotic</a>
+                                    cells,
+                                    once precursor mRNA
+                                    (pre-mRNA) has been transcribed from DNA, it is processed to mature mRNA. This
+                                    removes its <a href="/wiki/Intron" title="">introns</a>—non-coding sections of
+                                    the
+                                    pre-mRNA. The mRNA is then exported from the nucleus to the <a
+                                        href="/wiki/Cytoplasm" title="">cytoplasm</a>, where it is bound to
+                                    ribosomes
+                                    and <a href="/wiki/Translation_(biology)" title="">translated</a> into its
+                                    corresponding protein form with the help of <a href="/wiki/TRNA" class="mw-redirect"
+                                        title="TRNA">tRNA</a>. In prokaryotic cells, which do
+                                    not have nucleus and
+                                    cytoplasm compartments, mRNA can bind to ribosomes while it is being transcribed
+                                    from DNA. After a certain amount of
+                                    time, the message degrades into its component nucleotides with the assistance of
+                                    <a href="/wiki/Ribonuclease" title="Ribonuclease">ribonucleases</a>.[29]
+                                    <a href="/wiki/Transfer_RNA" title="">Transfer RNA</a> (tRNA) is a small RNA
+                                    chain
+                                    of about 80 <a href="/wiki/Nucleotide" title="">nucleotides</a> that transfers a
+                                    specific amino acid to a growing <a href="/wiki/Polypeptide" class="mw-redirect"
+                                        title="Polypeptide">polypeptide</a> chain at the ribosomal site of
+                                    protein synthesis during translation. It has sites for amino acid attachment and
+                                    an
+                                    <a href="/wiki/Polypeptide" class="mw-redirect" title="Polypeptide">polypeptide</a>
+                                    region for <a href="/wiki/Codon" class="mw-redirect" title="Codon">codon</a>
+                                    recognition that binds to a specific sequence on the messenger RNA chain through
+                                    hydrogen
+                                    bonding.[34]
+                                    <a href="/wiki/Ribosomal_RNA" title="Ribosomal RNA">Ribosomal RNA</a> (rRNA) is
+                                    the
+                                    catalytic component of the
+                                    ribosomes. The rRNA is the component of the ribosome that hosts translation.
+                                    Eukaryotic ribosomes contain four different
+                                    rRNA molecules: 18S, 5.8S, 28S and 5S rRNA. Three of the rRNA molecules are
+                                    synthesized in the <a href="/wiki/Nucleolus" title="Nucleolus">nucleolus</a>,
+                                    and
+                                    one is synthesized elsewhere. In the cytoplasm, ribosomal RNA and protein
+                                    combine to form a nucleoprotein called a ribosome. The ribosome binds mRNA and
+                                    carries out protein synthesis. Several
+                                    ribosomes may be attached to a single mRNA at any time.[29] Nearly all the RNA
+                                    found
+                                    in a typical eukaryotic cell is
+                                    rRNA.
+                                    <a href="/wiki/TmRNA" class="mw-redirect" title="TmRNA">Transfer-messenger
+                                        RNA</a>
+                                    (tmRNA) is found in many <a href="/wiki/Bacteria" title="Bacteria">bacteria</a>
+                                    and
+                                    <a href="/wiki/Plastid" title="Plastid">plastids</a>. It
+                                    tags proteins encoded by mRNAs that lack stop codons for degradation and
+                                    prevents
+                                    the ribosome from stalling.[43]
+                            </p>
+                        </section>
+                    </section>
+
+
+
+                    <section class="regulatory">
+                        <h2 id="regulatory-rna" class="regulaltory">Regulatory RNA</h2>
+                        The earliest known regulators of <a href="/wiki/Gene_expression" title="">gene
+                            expression</a> were proteins known as a
+                        <a href="/wiki/Repressor" title="Repressor">repressors</a> and <a
+                            href="/wiki/Activator_(genetics)" title="Activator (genetics)">activators</a> –
+                        regulators with specific short binding sites within <a href="/wiki/Enhancer_(genetics)"
+                            title="">enhancer</a> regions near the genes to be regulated.[44] Later studies
+                        have shown that RNAs also regulate genes. There are several kinds of RNA-dependent
+                        processes
+                        in eukaryotes regulating
+                        the expression of genes at various points, such as <a href="/wiki/RNA_interference"
+                            title="RNA interference">RNAi</a>
+                        repressing genes <a href="/wiki/Post-transcriptional_regulation"
+                            title="Post-transcriptional regulation">post-transcriptionally</a>, <a
+                            href="/wiki/Long_non-coding_RNA" title="">long non-coding RNAs</a> shutting down
+                        blocks
+                        of <a href="/wiki/Chromatin" title="">chromatin</a> <a href="/wiki/Epigenetically"
+                            class="mw-redirect" title="Epigenetically">epigenetically</a>, and <a
+                            href="/wiki/Enhancer_RNA" title="Enhancer RNA">enhancer RNAs</a> inducing increased
+                        gene
+                        expression.[45] <a href="/wiki/Prokaryote" title="">Bacteria and archaea</a> have also
+                        been
+                        shown to use regulatory RNA systems such as
+                        <a href="/wiki/Bacterial_small_RNA" title="Bacterial small RNA">bacterial small RNAs</a>
+                        and
+                        <a href="/wiki/CRISPR" title="CRISPR">CRISPR</a>.[46] Fire and Mello were awarded the
+                        2006
+                        <a href="/wiki/Nobel_Prize_in_Physiology_or_Medicine" title="">Nobel Prize in Physiology
+                            or
+                            Medicine</a>for discovering
+                        <a href="/wiki/MicroRNA" title="MicroRNA">microRNAs</a> (miRNAs), specific short RNA
+                        molecules that can base-pair with
+                        mRNAs.[47]
+                        <h3 id="interference" class="interference">RNA interference by miRNAs</h3>
+                        <p>Post-transcriptional expression levels of many genes can be controlled by <a
+                                href="/wiki/RNA_interference" title="RNA interference">RNA interference</a>, in
+                            which <a href="/wiki/MiRNA" class="mw-redirect" title="MiRNA">miRNAs</a>, specific
+                            short
+                            RNA molecules, pair with mRNA regions and target them for
+                            degradation.[48] This <a href="/wiki/Antisense_RNA"
+                                title="Antisense RNA">antisense</a>-based
+                            process involves steps
+                            that first process the RNA so that it can <a href="/wiki/Base_pair"
+                                title="Base pair">base-pair</a>
+                            with a region of
+                            its target mRNAs. Once the base pairing occurs, other proteins direct the mRNA to be
+                            destroyed by <a href="/wiki/Nuclease" title="Nuclease">nucleases</a>.[45]</p>
+                        <h3 id="long">Long non-coding RNAs</h3>
+                        <p>See also: <a href="/wiki/Long_non-coding_RNA" title="">Long Non-coding RNA</a>
+                            Next to be linked to regulation were <a href="/wiki/XIST" title="">Xist</a> and
+                            other <a href="/wiki/Long_noncoding_RNA" class="mw-redirect" title="">long noncoding
+                                RNAs</a>
+                            associated with <a href="/wiki/X_chromosome_inactivation" class="mw-redirect"
+                                title="X chromosome inactivation">X chromosome
+                                inactivation</a>. Their roles, at first mysterious, were shown by <a
+                                href="/wiki/Jeannie_T._Lee" title="">Jeannie T. Lee</a> and others to be the <a
+                                href="/wiki/RNA_silencing" title="">silencing</a> of blocks
+                            of chromatin via recruitment of <a href="/wiki/Polycomb-group_proteins"
+                                title="Polycomb-group proteins">Polycomb</a>
+                            complex so that messenger RNA could not be transcribed from them.[49] Additional
+                            lncRNAs, currently defined as RNAs
+                            of more than 200 base pairs that do not appear to have coding potential,[50] have
+                            been
+                            found associated with
+                            regulation of <a href="/wiki/Stem_cell" title="Stem cell">stem cell</a> <a
+                                href="/wiki/Pluripotency" class="mw-redirect" title="Pluripotency">pluripotency</a>
+                            and c<a href="/wiki/Cell_division" title="Cell division">cell division</a>.[50]</p>
+                        <h3 id="enhancer" class="enhancer">Enhancer RNAs</h3>
+                        <p>See also: <a href="/wiki/Enhancer_RNA" title="Enhancer RNA">Enhancer RNA</a>
+                            The third major group of regulatory RNAs is called <a href="/wiki/Enhancer_RNA"
+                                title="">enhancer
+                                RNAs</a>.[50] It
+                            is not clear at present whether they are a unique category of RNAs of various
+                            lengths or
+                            constitute a distinct
+                            subset of lncRNAs. In any case, they are transcribed from <a href="/wiki/Enhancers"
+                                class="mw-redirect" title="Enhancers">enhancers</a>, which are known regulatory
+                            sites in the DNA near genes they regulate.[50][51]
+                            They up-regulate the transcription of the gene(s) under control of the enhancer from
+                            which they are
+                            transcribed.[50][52]</p>
+                        <h3 id="regulatory" class="Rrnaiprok">Regulatory RNA in prokaryotes</h3>
+                        <p>At first, regulatory RNA was thought to be a eukaryotic phenomenon, a part of the
+                            explanation for why so much more
+                            transcription in higher organisms was seen than had been predicted. But as soon as
+                            researchers began to look for
+                            possible RNA regulators in bacteria, they turned up there as well, termed as small
+                            RNA
+                            (sRNA).[53][46] Currently,
+                            the ubiquitous nature of systems of RNA regulation of genes has been discussed as
+                            support for the <a href="/wiki/RNA_World" class="mw-redirect" title="">RNA World</a>
+                            theory.[45][54] <a href="/wiki/Bacterial_small_RNA" title="Bacterial small RNA">Bacterial
+                                small
+                                RNAs</a> generally act via <a href="/wiki/Antisense_RNA"
+                                title="Antisense RNA">antisense</a>
+                            pairing with mRNA
+                            to
+                            down-regulate its
+                            translation, either by affecting stability or affecting cis-binding ability.[45] <a
+                                href="/wiki/Riboswitch" title="Riboswitch">Riboswitches</a> have also been
+                            discovered. They are cis-acting regulatory RNA sequences
+                            acting <a href="/wiki/Allosteric_regulation"
+                                title="Allosteric regulation">allosterically</a>.
+                            They
+                            change shape
+                            when they bind <a href="/wiki/Metabolite" title="Metabolite">metabolites</a> so that
+                            they gain or lose the ability
+                            to bind chromatin to regulate expression of genes.[55][56]
+                            Archaea also have systems of regulatory RNA.[57] The CRISPR system, recently being
+                            used
+                            to edit DNA in situ, acts
+                            via regulatory RNAs in archaea and bacteria to provide protection against virus
+                            invaders.[45][58]</p>
+                    </section>
+
+
+
+                    <section class="processing">
+                        <h2 id="processing" class="irnapr">In RNA processing</h2>
+                        <div class="processing__row">
+                            <p>Many RNAs are involved in modifying other RNAs. <a href="/wiki/Intron"
+                                    title="">Introns</a>
+                                are <a href="/wiki/Splicing_(genetics)" class="mw-redirect" title="">spliced</a> out of
+                                <a href="/wiki/Splicing_(genetics)" class="mw-redirect" title="">spliced</a> by <a
+                                    href="/wiki/Spliceosome" title="Spliceosome">spliceosomes</a>, which contain several
+                                <a href="/wiki/Small_nuclear_RNA" title="">small
+                                    nuclear RNAs</a> (snRNA),[4] or the introns can be ribozymes that are spliced by
+                                themselves.[59] RNA can also be
+                                altered by having its nucleotides modified to nucleotides other than A, C, G and U.
+                                In
+                                eukaryotes, modifications of
+                                RNA nucleotides are in general directed by small nucleolar RNAs (snoRNA; 60–300
+                                nt),[34]
+                                found in the <a href="/wiki/Nucleolus" title="">nucleolus</a> and <a
+                                    href="/wiki/Cajal_body" title="">cajal bodies</a>. snoRNAs
+                                associate with enzymes and guide them to a spot on an RNA by basepairing to that
+                                RNA.
+                                These enzymes then perform the
+                                nucleotide modification. rRNAs and tRNAs are extensively modified, but snRNAs and
+                                mRNAs
+                                can also be the target of
+                                base modification.[60][61] RNA can also be methylated.[62][63]
+                            </p>
+                            <div class="processing__block block">
+                                <figure>
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Synthesis_of_Pseudouridine.svg/330px-Synthesis_of_Pseudouridine.svg.png"
+                                        width="150">
+                                    <figcaption>Uridine to pseudouridine is a common RNA modification.</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </section>
+
+
+
+                    <h2 id="genomes" class="rnagen">RNA genomes</h2>
+                    <p>Like DNA, RNA can carry genetic information. <a href="/wiki/RNA_virus" title="RNA virus">RNA
+                            viruses</a> have <a href="/wiki/Genome" title="Genome">genomes</a> composed of RNA that
+                        encodes
+                        a number of proteins.
+                        The
+                        viral
+                        genome is replicated by some of those proteins, while other proteins protect the
+                        genome
+                        as the virus particle moves
+                        to a new host cell.<a href="/wiki/Viroid" title="Viroid">Viroids</a> are another
+                        group
+                        of pathogens, but they
+                        consist only of RNA, do not encode any protein and are replicated by a host plant
+                        cell's
+                        polymerase.[64]</p>
+                    <h3 id="in-reverse" class="irev">In reverse transcription</h3>
+                    <p>Reverse transcribing viruses replicate their genomes by <a href="/wiki/Reverse_transcription"
+                            class="mw-redirect" title="Reverse transcription">reverse transcribing</a> DNA copies
+                        from their
+                        RNA;
+                        these DNA copies are then
+                        transcribed to new RNA. <a href="/wiki/Retrotransposon"
+                            title="Retrotransposon">Retrotransposons</a>
+                        also spread by
+                        copying DNA and RNA from one another,[65] and <a href="/wiki/Telomerase"
+                            title="Telomerase">telomerase</a> contains
+                        an <a href="/wiki/Telomerase_RNA_component" title="Telomerase RNA component">RNA
+                            that is
+                            used as template</a> for
+                        building the ends of <a href="/wiki/Eukaryotic_chromosome_structure"
+                            title="Eukaryotic chromosome structure">eukaryotic chromosomes</a>.[66]</p>
+
+                    <section class="double">
+                        <h2 id="double" class="double">Double-stranded RNA</h2>
+                        <div class="double__row">
+                            <p>Double-stranded RNA (dsRNA) is RNA with two complementary strands, similar to the DNA
+                                found in all cells, but with
+                                the replacement of thymine by uracil and the adding of one oxygen atom. dsRNA forms
+                                the
+                                genetic material of some <a href="/wiki/Virus" title="Virus">viruses</a> (<a
+                                    href="/wiki/Double-stranded_RNA_viruses"
+                                    title="Double-stranded RNA viruses">double-stranded
+                                    RNA
+                                    viruses</a>).
+                                Double-stranded RNA, such as viral RNA or
+                                <a href="/wiki/SiRNA" class="mw-redirect" title="">siRNA</a>, can trigger <a
+                                    href="/wiki/RNA_interference" title="">RNA interference</a> in <a
+                                    href="/wiki/Eukaryote" title="">eukaryotes</a>, as well as <a
+                                    href="/wiki/Interferon" title="">interferon</a>
+                                response
+                                in <a href="/wiki/Vertebrate" title="">vertebrates</a>.[67][68][69][70] In Eukaryotes,
+                                Double-stranded RNA (dsRNA) plays a role in the
+                                activation of the innate immune system against viral infections.[71]
+                            </p>
+                            <div class="double__block block">
+                                <figure>
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Double-stranded_RNA.gif/330px-Double-stranded_RNA.gif"
+                                        width="200">
+                                    <figcaption>Double-stranded RNA</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="circular">
+                        <h2 id="circular" class="circular">Circular RNA</h2>
+                        <p>Main article: Circular RNA
+                            In the late 1970s, it was shown that there is a single stranded covalently closed,
+                            i.e.
+                            circular form of RNA
+                            expressed throughout the animal and plant kingdom (see <a href="/wiki/Circular_RNA"
+                                title="Circular RNA">circRNA</a>).[72] circRNAs are thought to arise via a
+                            "back-splice" reaction where the <a href="/wiki/Spliceosome"
+                                title="Spliceosome">spliceosome</a>
+                            joins a upstream 3' acceptor to a downstream
+                            5'
+                            donor splice site. So far the function of circRNAs is largely unknown, although for
+                            few
+                            examples a microRNA sponging
+                            activity has been demonstrated.</p>
+
+                    </section>
+
+                    <section class="key">
+                        <h2 id="key" class="key">Key discoveries in RNA biology</h2>
+
+                        <div class="key__row">
+                            <p>
+                                Further information: History of RNA biology
+                                Robert W. Holley, left, poses with his research team.
+                                Research on RNA has led to many important biological discoveries and numerous <a
+                                    href="/wiki/Nobel_Prize" title="Nobel Prize">Nobel Prizes</a>. <a
+                                    href="/wiki/Nucleic_acid" title="Nucleic acid">Nucleic acids</a> were
+                                discovered in 1868 by <a href="/wiki/Friedrich_Miescher"
+                                    title="Friedrich Miescher">Friedrich
+                                    Miescher</a>, who
+                                called the material 'nuclein' since it was found in the <a href="/wiki/Cell_nucleus"
+                                    title="Cell nucleus">nucleus</a>.[73] It was later discovered that prokaryotic
+                                cells, which do not have a
+                                nucleus, also contain nucleic acids. The role of RNA in protein synthesis was
+                                suspected
+                                already in 1939.[74] <a href="/wiki/Severo_Ochoa" title="Severo Ochoa">Severo
+                                    Ochoa</a>
+                                won the 1959 <a href="/wiki/Nobel_Prize_in_Medicine" class="mw-redirect"
+                                    title="Nobel Prize in Medicine">Nobel Prize in
+                                    Medicine</a> (shared with <a href="/wiki/Arthur_Kornberg"
+                                    title="Arthur Kornberg">Arthur
+                                    Kornberg</a>) after he
+                                discovered an enzyme that can synthesize RNA in the laboratory.[75] However, the
+                                enzyme
+                                discovered by Ochoa (<a href="/wiki/Polynucleotide_phosphorylase"
+                                    title="Polynucleotide phosphorylase">polynucleotide phosphorylase</a>
+                                phosphorylase) was later shown to be responsible for RNA degradation, not RNA
+                                synthesis.
+                                In 1956 Alex Rich and David
+                                Davies hybridized two separate strands of RNA to form the first crystal of RNA whose
+                                structure could be determined
+                                by X-ray crystallography.[76]
+                                The sequence of the 77 nucleotides of a yeast tRNA was found by <a
+                                    href="/wiki/Robert_W._Holley" title="Robert W. Holley">Robert W. Holley</a> in
+                                1965,[77] winning Holley the <a
+                                    href="/wiki/List_of_Nobel_laureates_in_Physiology_or_Medicine"
+                                    title="List of Nobel laureates in Physiology or Medicine">1968 Nobel Prize in
+                                    Medicine</a> (shared with <a href="/wiki/Har_Gobind_Khorana"
+                                    title="Har Gobind Khorana">Har
+                                    Gobind Khorana</a> and <a href="/wiki/Marshall_Nirenberg" class="mw-redirect"
+                                    title="Marshall Nirenberg">Marshall Nirenberg</a>).
+                            </p>
+
+                            <div class="key__block block">
+                                <figure>
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/R_Holley.jpg/315px-R_Holley.jpg"
+                                        width="150">
+                                    <figcaption>Robert W. Holley, left, poses with his research team.</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <p>
+
+
+
+                            In the early 1970s, <a href="/wiki/Retrovirus" title="Retrovirus">retroviruses</a>
+                            and
+                            <a href="/wiki/Reverse_transcriptase" title="Reverse transcriptase">reverse
+                                transcriptase</a> were discovered,
+                            showing for the first time that enzymes could copy RNA into DNA (the opposite of the
+                            usual route for transmission of
+                            genetic information). For this work, <a href="/wiki/David_Baltimore"
+                                title="David Baltimore">David
+                                Baltimore</a>, <a href="/wiki/Renato_Dulbecco" title="Renato Dulbecco">Renato
+                                Dulbecco</a> and
+                            <a href="/wiki/Howard_Temin" class="mw-redirect" title="Howard Temin">Howard Temin</a> were
+                            awarded
+                            a Nobel
+                            Prize
+                            in 1975. In 1976, <a href="/wiki/Walter_Fiers" title="Walter Fiers">Walter Fiers</a>
+                            and
+                            his team determined the first complete
+                            nucleotide sequence of an RNA virus genome, that of <a href="/wiki/Walter_Fiers"
+                                title="Walter Fiers">Walter
+                                Fiers</a>.[78]
+                            In 1977, <a href="/wiki/Intron" title="Intron">introns</a> and <a href="/wiki/RNA_splicing"
+                                title="RNA splicing">RNA
+                                splicing</a> were discovered in both mammalian viruses and in cellular genes,
+                            resulting in a 1993 Nobel to <a href="/wiki/Philip_A._Sharp" class="mw-redirect"
+                                title="Philip A. Sharp">Philip Sharp</a> and <a href="/wiki/Richard_J._Roberts"
+                                title="Richard J. Roberts">Richard Roberts</a>. Catalytic RNA molecules (<a
+                                href="/wiki/Ribozyme" title="Ribozyme">ribozymes</a>) were discovered in the
+                            early
+                            1980s, leading to a 1989
+                            Nobel award to <a href="/wiki/Thomas_Cech" title="Thomas Cech">Thomas Cech</a> and
+                            S<a href="/wiki/Sidney_Altman" title="Sidney Altman">Sidney Altman</a>. In 1990, it
+                            was
+                            found in <a href="/wiki/Petunia" title="Petunia">Petunia</a> that introduced genes
+                            can
+                            silence similar genes of the plant's own, now known to be
+                            a result of <a href="/wiki/RNA_interference" title="">RNA interference</a>.[79][80]
+                            At about the same time, 22 nt long RNAs, now called <a href="/wiki/MicroRNA"
+                                title="MicroRNA">microRNAs</a>, were
+                            found to have a role in the <a href="/wiki/Developmental_biology"
+                                title="Developmental biology">development</a> of
+                            <a href="/wiki/Caenorhabditis_elegans" title="Caenorhabditis elegans">C.
+                                elegans</a>.[81] Studies on RNA
+                            interference gleaned a Nobel Prize for <a href="/wiki/Andrew_Z._Fire" class="mw-redirect"
+                                title="Andrew Z. Fire">Andrew Fire</a> and
+                        <p>At about the same time, 22 nt long RNAs, now called <a href="/wiki/MicroRNA"
+                                title="MicroRNA">microRNAs</a>, were
+                            found to have a role in the <a href="/wiki/Developmental_biology"
+                                title="Developmental biology">development</a> of
+                            <i><a href="/wiki/Caenorhabditis_elegans" title="Caenorhabditis elegans">C.
+                                    elegans</a></i>.<sup id="cite_ref-81" class="reference"><a
+                                    href="#cite_note-81">[81]</a></sup>
+                            Studies on RNA interference gleaned a Nobel Prize for <a href="/wiki/Andrew_Z._Fire"
+                                class="mw-redirect" title="Andrew Z. Fire">Andrew Fire</a> and <a
+                                href="/wiki/Craig_Mello" title="Craig Mello">Craig Mello</a> in
+                            2006, and another Nobel was awarded for studies on the transcription of RNA to <a
+                                href="/wiki/Roger_Kornberg" class="mw-redirect" title="Roger Kornberg">Roger
+                                Kornberg</a> in the same year. The discovery of gene regulatory
+                            RNAs has led to attempts to develop drugs made of RNA, such as <a href="/wiki/SiRNA"
+                                class="mw-redirect" title="SiRNA">siRNA</a>, to silence genes.<sup id="cite_ref-82"
+                                class="reference"><a href="#cite_note-82">[82]</a></sup> Adding
+                            to the Nobel prizes
+                            awarded for research on RNA in 2009 it was
+                            awarded for the elucidation of the atomic structure of the ribosome to <a
+                                href="/wiki/Venki_Ramakrishnan" title="Venki Ramakrishnan">Venki
+                                Ramakrishnan</a>,
+                            <a href="/wiki/Thomas_A._Steitz" title="Thomas A. Steitz">Thomas A. Steitz</a>, and
+                            <a href="/wiki/Ada_Yonath" title="Ada Yonath">Ada Yonath</a>.
+                        </p> in 2006, and another Nobel was awarded for studies on the transcription of RNA to
+                        <a href="/wiki/Roger_Kornberg" class="mw-redirect" title="Roger Kornberg">Roger
+                            Kornberg</a> in the same year. The discovery of gene regulatory
+                        RNAs has led to attempts to develop drugs made of RNA, such as <a href="/wiki/SiRNA"
+                            class="mw-redirect" title="SiRNA">siRNA</a>, to silence genes.[82] Adding to the
+                        Nobel
+                        prizes awarded for research on RNA in 2009 it was
+                        awarded for the elucidation of the atomic structure of the ribosome to <a
+                            href="/wiki/Venki_Ramakrishnan" title="">Venki
+                            Ramakrishnan</a>, <a href="/wiki/Thomas_A._Steitz" title="">Thomas A. Steitz</a>,
+                        and <a href="/wiki/Ada_Yonath" title="Ada Yonath">Ada Yonath</a>.</p>
+
+                    </section>
+
+
+                    <h3 id="relevance" class="relevance">Relevance for prebiotic chemistry and abiogenesis</h3>
+                    <p>In 1968, <a href="/wiki/Carl_Woese" title="">Carl Woese</a> hypothesized that RNA
+                        might
+                        be catalytic and suggested
+                        that the earliest forms of life (self-replicating molecules) could have relied on
+                        RNA
+                        both to carry genetic
+                        information and to catalyze biochemical reactions—an <a href="/wiki/RNA_world_hypothesis"
+                            class="mw-redirect" title="RNA world hypothesis">RNA world</a>.[83][84] In May 2022,
+                        scientists
+                        reported
+                        that they discovered RNA
+                        forms spontaneously on prebiotic <a href="/wiki/Volcanic_glass" title="">basalt lava
+                            glass</a> which is presumed to
+                        have been abundantly available on the <a href="/wiki/Early_Earth" title="Early Earth">early
+                            Earth</a>.[85][86]
+                        In March 2015, complex <a href="/wiki/DNA" title="">DNA</a> and RNA <a href="/wiki/Nucleotide"
+                            title="">nucleotides</a>, including <a href="/wiki/Uracil" title="">uracil</a>, <a
+                            href="/wiki/Cytosine" title="Cytosine">cytosine</a> and <a href="/wiki/Thymine"
+                            title="Thymine">thymine</a>, were reportedly formed in
+                        the laboratory under <a href="/wiki/Outer_space" title="Outer space">outer space</a>
+                        conditions, using starter
+                        chemicals, such as <a href="/wiki/Pyrimidine" title="">pyrimidine</a>, an <a
+                            href="/wiki/Organic_compound" title="Organic compound">organic compound</a>
+                        commonly
+                        found in <a href="/wiki/Meteorite" title="Meteorite">meteorites</a>. <a href="/wiki/Pyrimidine"
+                            title="Pyrimidine">Pyrimidine</a>, like <a href="/wiki/Pyrimidine"
+                            title="Pyrimidine">Pyrimidine</a> (PAHs), is one of the
+                        most
+                        carbon-rich compounds found
+                        in the <a href="/wiki/Universe" title="Universe">Universe</a> and may have been
+                        formed
+                        in <a href="/wiki/Red_giant" title="Red giant">red giants</a> or in <a href="/wiki/Cosmic_dust"
+                            title="">interstellar dust</a> and gas
+                        clouds.[87] In July 2022, astronomers reported the discovery of massive amounts of
+                        <a href="/wiki/Abiogenesis#Producing_molecules:_prebiotic_synthesis"
+                            title="Abiogenesis">prebiotic
+                            molecules</a>,
+                        including possible RNA precursors, in the <a href="/wiki/Galactic_Center" title="">Galactic
+                            Center</a> of the <a href="/wiki/Milky_Way_Galaxy" class="mw-redirect" title="">Milky
+                            Way
+                            Galaxy</a>.[88][89]
+                    </p>
+                    <section class="see">
+                        <h2 id="see"> See also</h2>
+                        <div class="see__row">
+                            <div class="see__column">
+                                <li><a href="https://en.wikipedia.org/wiki/Biomolecular_structure">Biomolecular
+                                        structure</a></li>
+                                <li><a href="/wiki/RNA_virus" title="RNA virus">RNA virus</a></li>
+                                <li><a href="/wiki/DNA" title="DNA">DNA</a></li>
+                                <li><a href="/wiki/History_of_RNA_biology" title="History of RNA biology">History of
+                                        RNA
+                                        Biology</a></li>
+                                <li><a href="/wiki/List_of_RNA_biologists" title="List of RNA biologists">List of
+                                        RNA
+                                        Biologists</a></li>
+                                <li><a href="/wiki/RNA_Society" title="RNA Society">RNA Society</a></li>
+                            </div>
+                            <div class="see__column">
+                                <li><a href="/wiki/Macromolecule" title="Macromolecule">Macromolecule</a></li>
+                                <li><a href="/wiki/RNA-based_evolution" title="RNA-based evolution">RNA-based
+                                        evolution</a></li>
+                                <li><a href="/wiki/Aptamer" title="Aptamer">Aptamer</a></li>
+                            </div>
+                    </section>
+
+
+                </section>
+            </main>
+            <aside class="empty-sidebar">
+
+            </aside>
+        </div>
+
+
+
+        <div class="main-container">
+            <footer class="footer">
+                <p class="footer__top">This page was last edited on 9 February 2023, at 07:57 (UTC). </p>
+                <p>Text is available under the <a
+                        href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative
+                        Commons Attribution-ShareAlike License 3.0</a>; additional terms may apply. By using this site,
+                    you
+                    agree to the <a href="https://foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a
+                        href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a
+                    registered trademark of the <a href="https://www.wikimediafoundation.org/">Wikimedia Foundation</a>,
+                    Inc., a
+                    non-profit organization.</p>
+                <div class="footer__row">
+                    <div class="footer__list">
+                        <a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy </a>
+                        <a href="https://en.wikipedia.org/wiki/Wikipedia:About">About Wikipedia </a>
+                        <a href="https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer">Disclaimers </a>
+                        <a href="https://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia </a>
+                        <a
+                            href="https://en.m.wikipedia.org/w/index.php?title=Phytoplankton&mobileaction=toggle_view_mobile">Mobile
+                            view </a>
+                        <a href="https://developer.wikimedia.org/">Developers </a>
+                        <a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics </a>
+                        <a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement </a>
+                    </div>
+                    <div class="footer__images">
+                        <img src="img/wikimedia-button.png" alt="">
+                        <img src="img/poweredby_mediawiki_88x31.png" alt="" >
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="js/scripts.js"></script>
+</body>
+
+</html>
